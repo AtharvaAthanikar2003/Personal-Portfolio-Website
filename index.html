@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio Website</title>
+    <link rel="icon" href="professional-portfolio-website.png" type="image/png">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#home" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1 id="nancy-momoland" class="rb-heading-index-4">Atharva Athanikar</h1>
+            <p>Atharva Athanikar, a student graduated from Bachelors in Computer Engineering from Dr. D. Y. Patil Institute of Technology, Pimpri, Pune.</p>
+                 <div class="social-media">
+                    <a href="https://www.linkedin.com/in/atharva-athanikar/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/AtharvaAthanikar2003" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/atharva.athanikar/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+                <a href="Atharva_Athanikar_SDE_Resume.pdf" class="btn">Download CV</a>
+            </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-data'></i>
+                    <h3>Data Analyst</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code'></i>
+                    <h3>Software Engineer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-desktop'></i>
+                    <h3>System Engineer</h3>
+                </div>
+                <!-- Duplicate the first profession to loop -->
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-data'></i>
+                    <h3>Data Analyst</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img decoding="async" src="" alt="" data-recalc-dims="1">
+        </div>
+    </section>
+      <!-- about section design -->
+      <section class="about" id="about">
+        <div class="about-img">
+            <img decoding="async" src="Atharva Athanikar.jpg">
+        </div>
+        <div class="about-content">
+            <h2 id="about-me" class="rb-heading-index-9 heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, Welcome to my Portfolio Website! I'm Atharva Athanikar,
+                a passionate Data Analyst who enjoys learning new technologies
+                and solving problems with managing big data and making beautiful 
+                and insightful data visualizations!
+            </h3>
+            <p>
+                This website is my personal blog where I write about Data Science
+                topics that interest me and inspire me.
+                Thank you for visiting my website and getting to know me better. I hope you
+                enjoyed reading my blog posts and found them useful and informative. If you want to 
+                read more of my posts, subscribe to my newsletter where I send weekly updates on Data Science 
+                trends and tips. If you have any feedback or suggestions, please let me know. I'd love to hear from you.
+            </p>
+        </div>
+    </section>
+    <!-- services section design -->
+        <section class="services" id="services">
+            <h2 id="my-services" class="rb-heading-index-11 heading">My <span>Services</span></h2>
+            <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-data'></i>
+            <h3>Data Analyst</h3>
+            <p>I specialize in transforming raw data into meaningful insights using tools like Excel, Power BI, and Python. My projects involve cleaning data, building visual dashboards, and helping stakeholders make informed decisions through actionable analytics.</p>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-code'></i>
+            <h3>Software Engineer</h3>
+            <p>As a software engineer, I have worked on both frontend and backend development. On the frontend, I design responsive user interfaces, while on the backend, I worked on different databases and handle server-side logic to ensure seamless application performance.</p>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-desktop'></i>
+            <h3>Systems Engineer</h3>
+            <p>In my role as a systems engineer, I have worked extensively with different databases like MySQL, Oracle SQL, and PostgreSQL. I focus on designing efficient schemas, optimizing queries, and managing data systems to ensure smooth and scalable performance.</p>
+        </div>
+        <div class="services-box">
+            <i class='bx bxs-paint'></i>
+            <h3>UI/UX Designer</h3>
+            <p>With a strong focus on user-centric design, I create intuitive and visually appealing interfaces. I aim to balance aesthetics and functionality, ensuring every product I design is easy to use, accessible, and thoughtfully aligned with the unique needs of users.</p>
+        </div>
+    </div>
+    </section>
+     <!-- portfolio section design -->
+     <section class="portfolio" id="portfolio">
+        <h2 id="latest-project" class="rb-heading-index-15 heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img decoding="async" src="Detection Of Sapodilla Fruit Disease Using EfficientNet V2 Large.png">
+                <div class="portfolio-layer">
+                    <h4>Detection of Sapodilla Fruit Disease using EfficientNet V2 Large</h4>
+                    <p>Created a deep learning solution to optimize soil and crop management, with 99% accuracy in predicting the best crops, 98% precision in detecting diseases early, and personalized fertilizer suggestions, all helping boost farm productivity and sustainability.</p>
+                        <a href="atharvaathanikar2003.github.io/Multimode-Calculator/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img decoding="async" src="Multimode Calculator.png">
+                <div class="portfolio-layer">
+                    <h4>Multimode Calculator</h4>
+                    <p>Built a responsive Multimode Calculator having Standard, Scientific, Programmer and Currency modes using HTML, CSS, JavaScript, achieving 75% better performance and 60% higher user engagement with a clean, intuitive UI.</p>
+                        <a href="atharvaathanikar2003.github.io/Multimode-Calculator/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img decoding="async" src="Navigate The Labyrinth.png">
+                <div class="portfolio-layer">
+                    <h4>Navigate The Labyrinth</h4>
+                    <p>Developed an interactive maze game with a visually appealing UI, engaging over 100 players to complete the maze in under 20 moves.</p>
+                        <a href="https://atharvaathanikar2003.github.io/Navigate-The-Labyrinth/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img decoding="async" src="Data Analysis On Agricultural Crops.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Kisan AI Smart Farming With Real Time Data Analysis</h4>
+                    <p>Designed a user-friendly dashboard that gave farmers real-time insights to help them manage their crops better, leading to a 50% boost in crop yield by supporting smarter decision-making.</p>
+                    <a href="https://github.com/AtharvaAthanikar2003/Kisan-AI-Smart-Farming-with-Real-Time-Data-Analysis"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img decoding="async" src="Data Analysis On US Visa Acceptance.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>US Visa Acceptance Prediction</h4>
+                    <p>Built a Python machine learning model in Jupyter Notebook to predict US visa outcomes, improving prediction accuracy by 25% by using libraries like NumPy, Pandas, Seaborn, and Matplotlib.</p>
+                    <a href="https://github.com/AtharvaAthanikar2003/US-Visa-Acceptance-Prediction-and-Data-Analysis"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img decoding="async" src="Data Analysis On E-Commerce Sales.png">
+                <div class="portfolio-layer">
+                    <h4>E-Commerce Data Analysis</h4>
+                    <p>Leveraged Microsoft Power BI to analyze product sales and shipping data, driving a 20% increase in profit margins by optimizing discount strategies based on data-driven insights.</p>
+                        <a href="https://github.com/AtharvaAthanikar2003/E-Commerce-Data-Analysis"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 id="contact-me" class="rb-heading-index-26 heading">Contact <span>Me!</span></h2>
+        <form action="https://github.com/AtharvaAthanikar2003/">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message (Please enter your details correctly and contact to my GitHub Page for any issues.)"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+<footer class="footer">
+    <div class="footer-text">
+        <center>
+            <h2>Atharva Athanikar</h2>
+            <h3 class="subtitle">Contact Me</h3>
+            <p><i class="fa-regular fa-envelope"></i>atharvaathanikar.22@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+91 7796678222</p>
+            <p>Copyrights &copy; 2024 All Rights Reserved</p>
+        </center>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+  </center>
+    <script src ="script.js">
+    </script>
